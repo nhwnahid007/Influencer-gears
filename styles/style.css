@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-family: "Manrope", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Shared Css  */
+
+/* Header section */
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  margin: 90px 120px;
+}
+
+.header-top li,
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 34px;
+}
+
+.header-top {
+  color: #3a3a3a;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+nav >ul a {
+  color: #3a3a3a;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
