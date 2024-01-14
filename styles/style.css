@@ -15,6 +15,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  border: 0;
 }
 /* Header section */
 .header-top {
@@ -64,6 +65,23 @@ nav > ul a {
   background: #e02c6d;
 }
 
+.see{
+    position: relative;
+}
+#btn2 {
+    display: inline-flex;
+    padding: 10px 24px;
+    align-items: flex-start;
+    gap: 8px;
+    color: #e02c6d;
+    border: 0;
+    position: absolute; 
+    bottom: 0; right: 0;
+
+    margin-right: 175px;
+  }
+
+
 /* banner section */
 
 .banner {
@@ -72,8 +90,6 @@ nav > ul a {
   gap: 50px;
   align-items: center;
 }
-
-
 
 .banner-title {
   color: #3a3a3a;
@@ -95,14 +111,98 @@ nav > ul a {
   line-height: normal;
 }
 
-.banner-right{
-    position: relative;
+.banner-right {
+  position: relative;
 }
 
-.img2{
-    position: absolute;
-    width: 95%;
-    top: 20px;
+.img2 {
+  position: absolute;
+  width: 95%;
+  top: 20px;
 }
 
+.sponsors {
+  display: flex;
+  /* margin:  auto 120px; */
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 100px;
+}
 
+/* container-section */
+.collection-title {
+  color: #3a3a3a;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 70px; /* 250% */
+  text-align: center;
+}
+
+.collection{
+    padding-top: 20px;
+}
+
+/* Shared collection classes */
+.collection-img-title {
+  color: var(--Text-Gray-900, #18191f);
+  font-feature-settings: "liga" off;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 142.857% */
+}
+.collection-price {
+  color: var(--Dark-Color, rgba(0, 0, 0, 0.87));
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+}
+.collection-rating {
+  color: var(--gray-80, #5e6366);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px; /* 157.143% */
+  letter-spacing: 0.1px;
+}
+.collection-paragraph {
+  color: var(--Gray-50, #787885);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 143%; /* 20.02px */
+  letter-spacing: 0.252px;
+  width: 196px;
+}
+
+.collection-rating>i{
+ color: #FB8200;
+}
+/* Share end */
+
+.collection-img{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-evenly;
+    padding: 80px 80px 80px 100px;
+    
+    gap: 40px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+
+    
+}
+
+.collection-img img{
+    margin: o auto;
+}
