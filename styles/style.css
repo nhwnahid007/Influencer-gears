@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  max-width: 1440px;
   font-family: "Inter", sans-serif;
   font-family: "Manrope", sans-serif;
   font-family: "Poppins", sans-serif;
@@ -277,3 +278,25 @@ line-height: 24px; /* 171.429% */
     gap: 10px;
     padding-top: 15px;
 }
+
+ @media screen and (max-width:576px) {
+  .header-top{
+    flex-direction: column;
+  }
+
+  .header-top nav ul{
+    flex-wrap: wrap;
+  }
+  .banner{
+flex-direction: column;
+  }
+  .sponsors{
+    flex-wrap: wrap;
+  }
+  .collection-img{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .featured2{
+    flex-direction: column;
+  }
+ }
